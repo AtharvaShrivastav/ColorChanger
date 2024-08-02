@@ -1,0 +1,42 @@
+CSS Changer Project Documentation
+Overview
+The “CSS Changer” project is an interactive web page that dynamically modifies styling features as users scroll down. By combining HTML, CSS, and JavaScript, this project allows you to create engaging visual effects. The main components include toggle bars, an image, and scroll-triggered changes.
+
+Technologies Used
+HTML: Provides the structure of the page.
+CSS: Styles the elements, including the toggle bars and image.
+JavaScript: Handles scroll events and adjusts styling dynamically.
+Project Structure
+index.html:
+Contains the basic HTML structure.
+Includes the toggle bars and an image.
+styles.css:
+Defines the visual appearance of the page.
+Styles the toggle bars, image, and other elements.
+Sets initial styles for the scroll-triggered changes (e.g., blur, colors).
+script.js:
+Manages interactivity:
+Detects scroll events using window.addEventListener.
+Calculates the user’s position on the page.
+Adjusts styling (e.g., padding, blur, colors) based on scroll position.
+Implementation Steps
+HTML Setup:
+Create an index.html file.
+Add toggle bars (e.g., navigation or feature toggles) and an image.
+CSS Styling:
+Create a styles.css file.
+Style the toggle bars (positioning, colors, animations).
+Apply initial styles to the image and other elements.
+JavaScript Logic:
+In a script.js file:
+Select the toggle bars and image using document.querySelector.
+Add a scroll event listener.
+Calculate the scroll position (e.g., window.scrollY).
+Dynamically adjust styles based on the scroll position (e.g., change colors, apply blur).
+Customization:
+Customize the toggle bars’ behavior (e.g., show/hide navigation, trigger animations).
+Experiment with different scroll effects (e.g., parallax scrolling).
+Usage
+Open index.html in a web browser.
+Scroll down the page to observe the dynamic changes in styling.
+Experiment with different scroll speeds and directions.
